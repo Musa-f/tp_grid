@@ -2,17 +2,20 @@ h1, footer{
     text-align: center;
 }
 
+/*Grid nav parent*/
 nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
+/*Grid nav enfant*/
 ul{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-column: 2;
 }
 
+/*Grid nav petit-enfant*/
 li:nth-of-type(1){
     grid-column: 1;
 }
